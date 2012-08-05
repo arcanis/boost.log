@@ -40,7 +40,7 @@ On Archlinux :
     $> git clone git@github.com:arcanis/side.boost.log boost.log
     $> cd boost.log
     $> makepkg
-    $> sudo pacman -U boost.log*.pkg.tar.gz
+    $> sudo pacman -U boost.log-*.pkg.tar.xz
 
 ## Why ?
 
