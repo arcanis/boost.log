@@ -1,1 +1,4 @@
 /libs/log/test/bin/
+/pkg/
+/src/
+/boost.log-*.pkg.tar.xz
