@@ -2,6 +2,8 @@
 
 I'm currently working on a logging system for the Boost libraries.
 
+It is purely informal : the proposal has not been made, I want to work a little more on the library before applying.
+
 ## Example
 
 ```c++
@@ -46,12 +48,12 @@ On Archlinux :
 
 I'm not satisfied by current C++ logging solutions, and most of my friends weren't neither.
 
-So here comes this `Boost.Log` proposal. The library is :
+So here comes this Boost.Log proposal. The library is :
 
-- Beautiful : The API has been carefully designed, and a logger are very similar to standard streams
+- Beautiful : The API has been carefully designed, and loggers are very similar to standard streams
 - Simple : It does not take more than a few headers to include a logger inside an application
-- Powerful : The users can create their own log message class, with their own attributes
-- Light : Almost no compile overhead, very little runtime footprint
+- Powerful : The users can create their own log message classes, with their own attributes
+- Light : Almost no compilation overhead, and a very little runtime footprint
 
 ## Features
 
