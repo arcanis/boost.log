@@ -39,7 +39,7 @@ int main( void ) {
 
 On Archlinux :
 
-    $> git clone git@github.com:arcanis/side.boost.log boost.log
+    $> git clone git@github.com:arcanis/boost.log boost.log
     $> cd boost.log
     $> makepkg
     $> sudo pacman -U boost.log-*.pkg.tar.xz
