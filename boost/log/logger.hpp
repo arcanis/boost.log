@@ -24,6 +24,8 @@ namespace boost {
 
             typedef boost::log::logger< Printer, Descriptor > self;
 
+            typedef boost::log::message< self > message;
+
         public:
 
             template < class Derived >
